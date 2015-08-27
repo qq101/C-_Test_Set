@@ -1,7 +1,6 @@
 #include "iostream"
-#include "string.h"
+#include "cstring"
 using namespace std;
-
 
 class Solution {
 public:
@@ -37,7 +36,9 @@ public:
 				}
 			}
 		}
-		str = tmp;
+		//str = tmp;
+		for (int i = 0; i < l; i++)
+			str[i] = tmp[i];
 		cout << "new str: " << str << "(" << strlen(tmp) << ")" << endl;
 
 	}
