@@ -25,18 +25,19 @@ public:
 		}
 		tmp += p.substr(begin, (p.size() - begin));
 		int len = tmp.size() + 1;
-		char *foo=(char *)[len];
+		char * foo=(char *) new char[len];
 		foo= (char *)tmp.c_str();
 		foo[len] = '\0';
 		for (int i = 0; i < len; i++)
 			str[i] = foo[i];
 		cout << "new str: " << str << "(" <<  strlen(str) << ")" << endl;
+		//delete []foo;
 	}
 };
 
 int main(int argc, char const *argv[])
 {
-	char s[] = {"hello world"};
+	char s[] = {" hello world "};
 	char *s_ptr = s;
 	int len = strlen(s_ptr);
 	Solution so;
