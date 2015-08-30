@@ -1,7 +1,7 @@
 #目录
-1. ##replaceSpace
-- ##myQuery
-- ##stack
-- ##reConstructBinaryTree
-- ##minNumberInRotateArray
-- ##fibonacci
+##1. replaceSpace
+##- myQuery
+##- stack
+##- reConstructBinaryTree
+##- minNumberInRotateArray
+##- fibonacci
